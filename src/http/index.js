@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_URL = 'http://localhost:8080'
+export const API_URL = 'https://patrego-mail-server.herokuapp.com/'
 
 const $api = axios.create({
     withCredentials: true,
